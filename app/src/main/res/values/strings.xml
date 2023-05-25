@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="main_title">English Developer for\n State Exam</string>
+    <string name="main_subtitle">Start preparing</string>
 </resources>
