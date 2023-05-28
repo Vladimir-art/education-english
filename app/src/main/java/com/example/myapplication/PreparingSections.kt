@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.StartTextSizeAnimation
+import com.example.myapplication.utils.StartTextSizeAnimation
 
 class PreparingSections : AppCompatActivity() {
     private lateinit var backMainMenuButton: ImageButton
