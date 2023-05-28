@@ -1,3 +1,13 @@
 <resources>
+    <string name="second_fragment_label">Your Second Label Here</string>
+    <string name="first_fragment_label">Your Label Here</string>
     <string name="app_name">My Application</string>
+    <string name="main_title">English Developer for\n State Exam</string>
+    <string name="main_subtitle">Start preparing</string>
+    <string name="title_activity_preparing_sections">PreparingSections</string>
+    <string name="reading_section">Reading</string>
+    <string name="listening_section">Listening</string>
+    <string name="writing_section">Writing</string>
+    <string name="grammar_section">Grammar</string>
+    <string name="speaking_section">Speaking</string>
 </resources>
