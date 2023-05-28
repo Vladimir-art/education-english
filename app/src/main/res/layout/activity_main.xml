@@ -25,7 +25,7 @@
         android:id="@+id/start_preparing_button"
         android:layout_width="172dp"
         android:layout_height="71dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="56dp"
         android:backgroundTint="@color/background_color"
         android:fontFamily="@font/allerta"
         android:text="@string/main_subtitle"
