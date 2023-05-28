@@ -10,7 +10,7 @@
     <View
         android:id="@+id/divider"
         android:layout_width="409dp"
-        android:layout_height="2dp"
+        android:layout_height="4dp"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="644dp"
@@ -60,6 +60,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:divider="?android:listDivider"
+        android:dividerPadding="2.5dp"
+        android:showDividers="middle"
         app:layout_constraintTop_toBottomOf="@+id/divider">
 
         <TextView
