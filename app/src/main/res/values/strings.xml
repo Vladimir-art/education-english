@@ -1,4 +1,6 @@
 <resources>
+    <string name="second_fragment_label">Your Second Label Here</string>
+    <string name="first_fragment_label">Your Label Here</string>
     <string name="app_name">My Application</string>
     <string name="main_title">English Developer for\n State Exam</string>
     <string name="main_subtitle">Start preparing</string>

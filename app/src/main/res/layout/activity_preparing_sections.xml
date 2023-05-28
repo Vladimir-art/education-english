@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/back_main_menu_button"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginEnd="18dp"
@@ -30,6 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.35"
+        android:background="@android:color/transparent"
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
     <TextView
@@ -72,7 +73,8 @@
             android:paddingLeft="18dp"
             android:text="@string/reading_section"
             android:textSize="25sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:clickable="true" />
 
         <TextView
             android:id="@+id/textView_listening"
