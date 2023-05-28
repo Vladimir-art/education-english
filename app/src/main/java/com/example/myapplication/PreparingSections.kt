@@ -10,6 +10,10 @@ import com.example.myapplication.StartTextSizeAnimation
 class PreparingSections : AppCompatActivity() {
     private lateinit var backMainMenuButton: ImageButton
     private lateinit var goReadingSection: TextView
+    private lateinit var goListeningSection: TextView
+    private lateinit var goSpeakingSection: TextView
+    private lateinit var goGrammarSection: TextView
+    private lateinit var goWritingSection: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,14 +21,34 @@ class PreparingSections : AppCompatActivity() {
 
         backMainMenuButton = findViewById(R.id.back_main_menu_button);
         goReadingSection = findViewById(R.id.textView_reading)
+        goListeningSection = findViewById(R.id.textView_listening)
+        goSpeakingSection = findViewById(R.id.textView_speaking)
+        goGrammarSection = findViewById(R.id.textView_grammar)
+        goWritingSection = findViewById(R.id.textView_writing)
+        val startTextSizeAnimation = StartTextSizeAnimation(resources)
 
         backMainMenuButton.setOnClickListener{
             openMainMenuSection();
         }
         goReadingSection.setOnClickListener {
-            val startTextSizeAnimation = StartTextSizeAnimation(resources)
-            startTextSizeAnimation.startTextSizeAnimation(goReadingSection, 3f)
+            startTextSizeAnimation.start(goReadingSection)
             openReadingSection();
+        }
+        goListeningSection.setOnClickListener {
+            startTextSizeAnimation.start(goListeningSection)
+            openListeningSection();
+        }
+        goSpeakingSection.setOnClickListener {
+            startTextSizeAnimation.start(goSpeakingSection)
+            openSpeakingSection();
+        }
+        goGrammarSection.setOnClickListener {
+            startTextSizeAnimation.start(goGrammarSection)
+            openGrammarSection();
+        }
+        goWritingSection.setOnClickListener {
+            startTextSizeAnimation.start(goWritingSection)
+            openWritingSection();
         }
     }
 
@@ -35,6 +59,26 @@ class PreparingSections : AppCompatActivity() {
 
     private final fun openReadingSection() {
         // TODO: add Reading section class
+//        val readingSectionIntent = Intent(this, MainActivity::class.java);
+//        startActivity(readingSectionIntent);
+    }
+    private final fun openListeningSection() {
+        // TODO: add Listening section class
+//        val readingSectionIntent = Intent(this, MainActivity::class.java);
+//        startActivity(readingSectionIntent);
+    }
+    private final fun openSpeakingSection() {
+        // TODO: add Speaking section class
+//        val readingSectionIntent = Intent(this, MainActivity::class.java);
+//        startActivity(readingSectionIntent);
+    }
+    private final fun openGrammarSection() {
+        // TODO: add Grammar section class
+//        val readingSectionIntent = Intent(this, MainActivity::class.java);
+//        startActivity(readingSectionIntent);
+    }
+    private final fun openWritingSection() {
+        // TODO: add Writing section class
 //        val readingSectionIntent = Intent(this, MainActivity::class.java);
 //        startActivity(readingSectionIntent);
     }

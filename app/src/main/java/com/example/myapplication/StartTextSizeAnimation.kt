@@ -5,7 +5,7 @@ import android.content.res.Resources
 import android.widget.TextView
 
 class StartTextSizeAnimation(private val resources: Resources) {
-        fun startTextSizeAnimation(textView: TextView, textSizeChange: Float) {
+        fun start(textView: TextView, textSizeChange: Float = 3f) {
             val textSize = textView.paint.textSize
             val sp: Float = textSize / resources.displayMetrics.scaledDensity
 
