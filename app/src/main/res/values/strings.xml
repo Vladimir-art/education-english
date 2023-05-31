@@ -10,49 +10,25 @@
     <string name="writing_section">Writing</string>
     <string name="grammar_section">Grammar</string>
     <string name="speaking_section">Speaking</string>
+    <string name="Sections">Sections</string>
     <string name="Task_1">Task № 1</string>
     <string name="Task_2">Task № 2</string>
     <string name="Task_3">Task № 3</string>
     <string name="Check_answer">Проверить ответы</string>
-    <string name="reading_task1">Установите соответствие между текстами A–G и заголовками 1–8. Занесите свои ответы в таблицу. Используйте каждую цифру только один раз. В задании один заголовок лишний.
-     1. Crafty celebrations                    5. The birthday weekend
-     2. Playing at a birthday                  6. A secret preparation
-     3. Months for celebrations            7. Once-in-a-lifetime
-     4. An old tradition                            8. Expressing greetings
-
-    A.      A Golden Birthday is a special, unique event that occurs when a person turns the age similar to a birth date.
+    <string name="reading_task1.0">Прочитайте текст.
+Выберите из предложенных заголовков правильный вариант.</string>
+    <string name="reading_task1.1">A Golden Birthday is a special, unique event that occurs when a person turns the age similar to a birth date.
 For example, a girl who celebrates her birthday on the 17th of June will have a golden birthday in the year she turns 17.
 A person who is older than 31 years will have already passed the only golden birthday and will not have it again.
-Many people miss their golden birthdays because it is not a wellknown celebration.
+Many people miss their golden birthdays because it is not a wellknown celebration.</string>
+    <string name="reading_R.B.1">A. Crafty celebrations</string>
+    <string name="reading_R.B.2">B. Playing at a birthday</string>
+    <string name="reading_R.B.3">C. Months for celebrations</string>
+    <string name="reading_R.B.4">D. An old tradition</string>
+    <string name="reading_R.B.5">E. The birthday weekend</string>
+    <string name="reading_R.B.6">F. A secret preparation</string>
+    <string name="reading_R.B.7">G. Once-in-a-lifetime</string>
+    <string name="reading_R.B.8">H. Expressing greetings</string>
 
-    B.      Humans tend to have babies throughout the year, rather than in certain seasons like other species. However, there are
-certain months when more babies are born than usual. These birthday months can vary from country to country depending on
-how close one is to the equator. In countries close to the equator November is the month with the most birthdays and those
-furthest from the equator have the most birthdays in September.
-
-    C.      Families can take a creative approach to birthday celebrations by letting guests make their own clothes or jewelry.
-T-shirt projects are easy to adapt to any age group. Young children may enjoy finger painting to make
-various designs on blank"T-shirt's, while teens and adults may prefer to use paint pens or fabric markers to produce
-unique patterns. Adults and kids who are old enough to handle tiny objects can make nice jewelry.
-
-    D.      There are many ways to surprise one's best friend for the birthday. Whether one chooses to give a wonderful gift
-or throw a wild party, it is important to make the surprise a mystery. If one's best friend finds out about the surprise
-before the right date and time, the shock element of the surprise is ruined. For the ideal execution of a surprise party,
-a quick rehearsal with friends and family beforehand may also be necessary.
-
-    E.      One of the easiest and most traditional ways to send a happy birthday message is to call, email
-or send a postcard to the person. Some other methods include creating a photo gallery, sending flowers,
-ordering a favourite song on the radio or setting up a gift treasure hunt. The message needs to be as personal
-and unique as possible. It is always good to say something that expresses love and appreciation for that person.
-
-    F.      The annual birthday celebration is generally marked by a cake with candles. The origin of birthday candles
-is related to a Greek tribute to the moon goddess. Artemis. Candles were lit and placed on a cake as a tribute
-to her beauty. Later, in Germany, children celebrated a birthday with a cake alight with one candle for each year of life,
-plus one extra candle to represent the expectation of living another year.
-
-    G.      Many classic games such as musical chairs, hot potato and Simon Says work well as birthday party entertainment.
-Games should match the age, abilities and interests of the party guests. Bingo is simple enough to fit any party context
-by filling the squares with related words or images. Pictures work best for young kids who can't read yet.
-Pin the tail on the donkey is another game that is easy to adapt to various party themes.</string>
 
 </resources>

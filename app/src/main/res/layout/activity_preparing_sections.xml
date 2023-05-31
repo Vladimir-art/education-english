@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/back_main_menu_button"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginEnd="18dp"
@@ -30,17 +30,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.35"
-        app:srcCompat="?attr/actionModeCloseDrawable"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:srcCompat="?attr/actionModeCloseDrawable"/>
+     <TextView
         android:id="@+id/section_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="196dp"
         android:fontFamily="@font/allerta"
-        android:text="Sections"
+        android:text="@string/Sections"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -73,7 +73,8 @@
             android:paddingLeft="18dp"
             android:text="@string/reading_section"
             android:textSize="25sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:clickable="true" />
 
         <TextView
             android:id="@+id/textView_listening"
