@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.myapplication.R
 
-class Listening_task_1 : AppCompatActivity() {
+class ListeningSectionTask2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_listening_task1)
+        setContentView(R.layout.activity_listening_task2)
     }
 }
