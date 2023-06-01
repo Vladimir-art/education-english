@@ -7,6 +7,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.reading.ReadingSection
 import com.example.myapplication.utils.StartTextSizeAnimation
+import com.example.myapplication.writing.WritingSection
 
 class PreparingSections : AppCompatActivity() {
     private lateinit var backMainMenuButton: ImageButton
@@ -79,8 +80,7 @@ class PreparingSections : AppCompatActivity() {
 //        startActivity(readingSectionIntent);
     }
     private final fun openWritingSection() {
-        // TODO: add Writing section class
-//        val readingSectionIntent = Intent(this, MainActivity::class.java);
-//        startActivity(readingSectionIntent);
+        val writingSectionIntent = Intent(this, WritingSection::class.java);
+        startActivity(writingSectionIntent);
     }
 }

@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/back_main_menu_button"
+        android:id="@+id/back_to_preparing_section_menu_button"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@android:color/transparent"
