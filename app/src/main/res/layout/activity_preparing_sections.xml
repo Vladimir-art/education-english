@@ -12,7 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="4dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="75dp"
         android:layout_marginEnd="1dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,32 +23,30 @@
         android:id="@+id/back_main_menu_button"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/divider"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/sections_container"
         app:layout_constraintEnd_toStartOf="@+id/section_title"
-        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35"
-        android:background="@android:color/transparent"
-        tools:ignore="SpeakableTextPresentCheck"
-        app:srcCompat="?attr/actionModeCloseDrawable"/>
-     <TextView
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
         android:id="@+id/section_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="196dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="176dp"
         android:fontFamily="@font/allerta"
         android:text="@string/Sections"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:id="@+id/linearLayout8"
+        android:id="@+id/sections_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="1dp"
