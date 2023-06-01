@@ -19,6 +19,12 @@
             android:name=".reading.ReadingSection"
             android:exported="true"/>
         <activity
+            android:name=".listening.Listening_task_1"
+            android:exported="true" />
+        <activity
+            android:name=".listening.ListeningSection"
+            android:exported="true" />
+        <activity
             android:name=".PreparingSections"
             android:exported="true"/>
         <activity
@@ -26,6 +32,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
