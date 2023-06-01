@@ -10,4 +10,25 @@
     <string name="writing_section">Writing</string>
     <string name="grammar_section">Grammar</string>
     <string name="speaking_section">Speaking</string>
+    <string name="Sections">Sections</string>
+    <string name="Task_1">Task № 1</string>
+    <string name="Task_2">Task № 2</string>
+    <string name="Task_3">Task № 3</string>
+    <string name="Check_answer">Проверить ответы</string>
+    <string name="reading_task1.0">Прочитайте текст.
+Выберите из предложенных заголовков правильный вариант.</string>
+    <string name="reading_task1.1">A Golden Birthday is a special, unique event that occurs when a person turns the age similar to a birth date.
+For example, a girl who celebrates her birthday on the 17th of June will have a golden birthday in the year she turns 17.
+A person who is older than 31 years will have already passed the only golden birthday and will not have it again.
+Many people miss their golden birthdays because it is not a wellknown celebration.</string>
+    <string name="reading_R.B.1">A. Crafty celebrations</string>
+    <string name="reading_R.B.2">B. Playing at a birthday</string>
+    <string name="reading_R.B.3">C. Months for celebrations</string>
+    <string name="reading_R.B.4">D. An old tradition</string>
+    <string name="reading_R.B.5">E. The birthday weekend</string>
+    <string name="reading_R.B.6">F. A secret preparation</string>
+    <string name="reading_R.B.7">G. Once-in-a-lifetime</string>
+    <string name="reading_R.B.8">H. Expressing greetings</string>
+
+
 </resources>
