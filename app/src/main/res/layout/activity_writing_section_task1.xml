@@ -90,7 +90,7 @@
 
     <TableLayout
         android:id="@+id/writing_section_email_constructor"
-        android:layout_width="388dp"
+        android:layout_width="375dp"
         android:layout_height="120dp"
         android:background="@color/opacity_lavender"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -193,7 +193,7 @@
 
     <TextView
         android:id="@+id/writing_section_task_1_email_text"
-        android:layout_width="388dp"
+        android:layout_width="375dp"
         android:layout_height="120dp"
         android:layout_marginBottom="204dp"
         android:background="@color/opacity_lavender"
@@ -211,7 +211,7 @@
 
     <TextView
         android:id="@+id/writing_section_emails_writing_exercise"
-        android:layout_width="386dp"
+        android:layout_width="375dp"
         android:layout_height="85dp"
         android:fontFamily="@font/allerta"
         android:text="@string/email_writing_exercise"
@@ -226,7 +226,7 @@
 
     <TextView
         android:id="@+id/writing_section_emails_writing_rules"
-        android:layout_width="386dp"
+        android:layout_width="375dp"
         android:layout_height="85dp"
         android:fontFamily="@font/allerta"
         android:text="@string/email_writing_rule"
