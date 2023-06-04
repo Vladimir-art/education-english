@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.speaking.SpeakingSection
 import com.example.myapplication.utils.StartTextSizeAnimation
 
 class PreparingSections : AppCompatActivity() {
@@ -68,9 +69,8 @@ class PreparingSections : AppCompatActivity() {
 //        startActivity(readingSectionIntent);
     }
     private final fun openSpeakingSection() {
-        // TODO: add Speaking section class
-//        val readingSectionIntent = Intent(this, MainActivity::class.java);
-//        startActivity(readingSectionIntent);
+        val speakingSectionIntent = Intent(this, SpeakingSection::class.java);
+        startActivity(speakingSectionIntent);
     }
     private final fun openGrammarSection() {
         // TODO: add Grammar section class
