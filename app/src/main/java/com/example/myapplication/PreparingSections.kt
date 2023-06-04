@@ -16,6 +16,7 @@ class PreparingSections : AppCompatActivity() {
     private lateinit var goSpeakingSection: TextView
     private lateinit var goGrammarSection: TextView
     private lateinit var goWritingSection: TextView
+    private lateinit var startTextSizeAnimation: StartTextSizeAnimation
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,7 +28,7 @@ class PreparingSections : AppCompatActivity() {
         goSpeakingSection = findViewById(R.id.textView_speaking)
         goGrammarSection = findViewById(R.id.textView_grammar)
         goWritingSection = findViewById(R.id.textView_writing)
-        val startTextSizeAnimation = StartTextSizeAnimation(resources)
+        startTextSizeAnimation = StartTextSizeAnimation(resources)
 
         backMainMenuButton.setOnClickListener{
             openMainMenuSection();
