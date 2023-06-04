@@ -76,6 +76,7 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:layout_marginTop="20dp"
         android:layout_width="330dp"
         android:layout_height="269dp"
         android:background="@color/opacity_lavender"
@@ -89,6 +90,7 @@
     <TableLayout
         android:layout_width="330dp"
         android:layout_height="122dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView">
@@ -108,7 +110,7 @@
                 android:text="@string/task_2_location"
                 android:textAlignment="center"
                 android:textSize="18sp"
-                android:textStyle="bold|italic" />
+                android:textStyle="italic" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -121,7 +123,7 @@
                 android:text="@string/task_2_music"
                 android:textAlignment="center"
                 android:textSize="18sp"
-                android:textStyle="bold|italic" />
+                android:textStyle="italic" />
 
         </TableRow>
 
@@ -139,7 +141,7 @@
                 android:text="@string/task_2_price"
                 android:textAlignment="center"
                 android:textSize="18sp"
-                android:textStyle="bold|italic" />
+                android:textStyle="italic" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -152,7 +154,7 @@
                 android:text="@string/task_2_discount"
                 android:textAlignment="center"
                 android:textSize="18sp"
-                android:textStyle="bold|italic" />
+                android:textStyle="italic" />
         </TableRow>
 
     </TableLayout>

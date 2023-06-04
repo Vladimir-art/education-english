@@ -12,6 +12,7 @@ import com.example.myapplication.utils.StartTextSizeAnimation
 class SpeakingSection : AppCompatActivity() {
     private lateinit var backToPreparingsection: ImageButton
     private lateinit var openSpeakingSectionTask1: Button
+    private lateinit var openSpeakingSectionTask2: Button
     private lateinit var startTextSizeAnimation: StartTextSizeAnimation
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,6 +21,7 @@ class SpeakingSection : AppCompatActivity() {
 
         backToPreparingsection = findViewById(R.id.back_sections_menu_from_speaking_section_button)
         openSpeakingSectionTask1 = findViewById(R.id.speaking_section_task_1_button)
+        openSpeakingSectionTask2 = findViewById(R.id.speaking_section_task_2_button)
         startTextSizeAnimation = StartTextSizeAnimation(resources)
 
         backToPreparingsection.setOnClickListener {
@@ -29,14 +31,24 @@ class SpeakingSection : AppCompatActivity() {
             startTextSizeAnimation.start(openSpeakingSectionTask1)
             openSpeakingSectionTask1()
         }
+        openSpeakingSectionTask2.setOnClickListener {
+            startTextSizeAnimation.start(openSpeakingSectionTask2)
+            openSpeakingSectionTask2()
+        }
     }
 
     private fun backToPreparingSection() {
         var preparingSectionIntent = Intent(this, PreparingSections::class.java)
         startActivity(preparingSectionIntent)
     }
+
     private fun openSpeakingSectionTask1() {
         var speakingSectionTask1Intent = Intent(this, SpeakingSectionTask1::class.java)
         startActivity(speakingSectionTask1Intent)
+    }
+
+    private fun openSpeakingSectionTask2() {
+        var speakingSectionTask2Intent = Intent(this, SpeakingSectionTask2::class.java)
+        startActivity(speakingSectionTask2Intent)
     }
 }
