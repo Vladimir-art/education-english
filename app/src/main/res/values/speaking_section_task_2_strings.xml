@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task_2_exercise">Study the advertisement.\nYou are considering celebrating your birthday at a restaurant and now you’d like to get more information.\nIn 1.5 minutes you are to ask four direct questions to find out about the following:</string>
+    <string name="task_2_location">✔ location</string>
+    <string name="task_2_music">✔ music choice</string>
+    <string name="task_2_price">✔ price per person</string>
+    <string name="task_2_discount">✔ discounts for students</string>
+</resources>

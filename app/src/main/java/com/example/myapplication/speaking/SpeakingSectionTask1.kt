@@ -13,7 +13,7 @@ class SpeakingSectionTask1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_speaking_section_task1)
 
-        backSpeakingSection = findViewById(R.id.back_speaking_section_button)
+        backSpeakingSection = findViewById(R.id.back_speaking_sections_menu_from_task_1_button)
 
         backSpeakingSection.setOnClickListener {
             openSpeakingSection()
