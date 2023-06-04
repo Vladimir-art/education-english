@@ -120,7 +120,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/speaking_section_task_2_button"
+        android:id="@+id/speaking_section_task_3_answers_button"
         android:layout_width="240dp"
         android:layout_height="45dp"
         android:layout_marginTop="40dp"
@@ -137,7 +137,7 @@
         app:layout_constraintTop_toBottomOf="@+id/speaking_section_media_player" /> />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/speaking_section_answers_textView"
         android:layout_width="375dp"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
@@ -146,10 +146,11 @@
         android:text="@string/answers"
         android:textSize="16sp"
         android:textStyle="bold|italic"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/speaking_section_task_2_button"
+        app:layout_constraintTop_toBottomOf="@+id/speaking_section_task_3_answers_button"
         app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
