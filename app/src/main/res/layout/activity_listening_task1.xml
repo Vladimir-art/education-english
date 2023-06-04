@@ -46,7 +46,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/reading_section_task_1"
+        android:id="@+id/listening_section_task_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/allerta"
@@ -60,7 +60,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/listening_task_1_check_button"
         android:layout_width="180sp"
         android:layout_height="45sp"
         android:layout_marginBottom="8dp"
@@ -76,5 +76,45 @@
         app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="@color/main_theme"
         tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/listening_task_1_0_textView2"
+        android:layout_width="418dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/listening_task1.0"
+        android:textAlignment="center"
+        android:textColor="@color/dark_purple"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider" />
+
+    <TextView
+        android:id="@+id/listening_task_1_1_textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/listening_task1.1"
+        android:textAlignment="center"
+        android:textColor="@color/dark_purple"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listening_task_1_0_textView2" />
+
+    <ImageButton
+        android:id="@+id/listening_task_1_play_imageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="535dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

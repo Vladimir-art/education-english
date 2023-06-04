@@ -29,4 +29,15 @@ Many people miss their golden birthdays because it is not a wellknown celebratio
     <string name="reading_R.B.6">F. A secret preparation</string>
     <string name="reading_R.B.7">G. Once-in-a-lifetime</string>
     <string name="reading_R.B.8">H. Expressing greetings</string>
+    <string name="listening_task1.0">Вы услышите 6 высказываний. Установите соответствие между высказываниями каждого говорящего A–F и утверждениями,
+данными в списке 1–7. Используйте каждое утверждение, обозначенное соответствующей цифрой, только один раз. В задании есть одно лишнее утверждение.
+Вы услышите запись дважды. Занесите свои ответы в таблицу.</string>
+    <string name="listening_task1.1">
+     1. I have a routine to keep communication going.
+     2. My relative was right after all.
+     3. How open should I be?
+     4. I\'m showing that I care my way.
+     5. I'm seen as a carer.
+     6. I said yes to a different kind of experience.
+     7. I'd like to feel more independent.</string>
 </resources>
