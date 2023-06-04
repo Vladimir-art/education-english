@@ -112,9 +112,10 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@android:drawable/ic_media_play"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteY="535dp" />
+        tools:layout_editor_absoluteY="636dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

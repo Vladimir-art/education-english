@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="second_fragment_label">Your Second Label Here</string>
     <string name="first_fragment_label">Your Label Here</string>
     <string name="app_name">My Application</string>
@@ -40,4 +40,16 @@ Many people miss their golden birthdays because it is not a wellknown celebratio
      5. I'm seen as a carer.
      6. I said yes to a different kind of experience.
      7. I'd like to feel more independent.</string>
+    <string name="listening_task2.0"> Вы услышите диалог. Определите, какие из приведённых утверждений А–G соответствуют содержанию текста (1 – True), какие не соответствуют (2 – False) и о чём в тексте не сказано, то есть на основании текста нельзя дать ни положительного, ни отрицательного ответа (3 – Not stated).
+        Занесите номер выбранного Вами варианта ответа в таблицу. Вы услышите запись дважды.</string>
+    <string name="listening_task2.1" tools:ignore="StringEscaping">
+     A. Viola's parents don't pay attention when their son is crying.
+     B. Daniel finds it normal when men express their sadness in the form of crying.
+     C. Viola remembers her childhood and the boy who cried.
+     D. Attitudes to men's emotional expressions are different.
+     E. Viola dislikes the traditions of Chile.
+     F. Daniel is sure that small children should be encouraged to cry.
+     G. According to Daniel, expressing emotions is worthy of respect.
+     </string>
+
 </resources>
