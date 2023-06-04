@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="task_3_exercise">You are going to give an interview.\nYou have to answer five questions. Give full answers to the questions\n(2-3 sentences).\nRemember that you have 40 seconds to answer each question.</string>
+    <string name="see_questions">See the questions</string>
+    <string name="answers">1) Do you think spending your school holidays with your school friends is a good idea or not? Why do you think so?\n2) How do you spend your school holidays?\n3) Did you use to spend your school holidays differently when you were in primary school?\n4) How do you use school holidays for self-education?\n5) Would you prefer to have them longer?</string>
 </resources>

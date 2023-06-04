@@ -75,13 +75,81 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/divider" />
 
-    <VideoView
-        android:id="@+id/speaking_section_videoView"
-        android:layout_width="375dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="30dp"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/speaking_section_media_player"
+        android:layout_width="152dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/opacity_pale_violet_red"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speaking_section_exercise_task_3"
+        app:layout_constraintVertical_bias="0.136">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/speaking_section_task_3_play"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="@android:color/transparent"
+                tools:src="@android:drawable/ic_media_play" />
+
+            <ImageButton
+                android:id="@+id/speaking_section_task_3_pause"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:background="@android:color/transparent"
+                tools:src="@android:drawable/ic_media_pause" />
+
+            <ImageButton
+                android:id="@+id/speaking_section_task_3_stop"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="12dp"
+                android:background="@android:color/transparent"
+                tools:src="@drawable/stop_button" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/speaking_section_task_2_button"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/opacity_pale_violet_red"
+        app:layout_constraintHorizontal_bias="0.498"
+        android:fontFamily="@font/allerta"
+        android:text="@string/see_questions"
+        android:textColor="@color/dark_purple"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/speaking_section_exercise_task_3" />
+        app:layout_constraintTop_toBottomOf="@+id/speaking_section_media_player" /> />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="375dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/answers"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speaking_section_task_2_button"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
