@@ -59,4 +59,265 @@
         app:layout_constraintStart_toEndOf="@+id/writing_section_task_2_title"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/writing_section_task_2_exercise"
+        android:layout_width="390dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/writing_section_task_2_exercise"
+        android:textAlignment="center"
+        android:textColor="@color/dark_purple"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider" />
+
+    <TableLayout
+        android:id="@+id/writing_section_table_activity_constructor"
+        android:layout_width="375dp"
+        android:layout_height="295dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/writing_section_task_2_exercise"
+        app:layout_constraintVertical_bias="0.084">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/opacity_lavender">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/activities_title"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/number_of_teenagers_title"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/pale_violet_red" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/walk_activity"
+                android:textAlignment="textStart"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/walk_activity_percentage"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/opacity_pale_violet_red" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/cinema_activity"
+                android:textAlignment="textStart"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/cinema_activity_percentage"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/opacity_pale_violet_red" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/shopping_activity"
+                android:textAlignment="textStart"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/shopping_activity_percentage"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/opacity_pale_violet_red" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/eating_activity"
+                android:textAlignment="textStart"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/eating_activity_percentage"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/opacity_pale_violet_red" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/festival_activity"
+                android:textAlignment="textStart"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/festival_activity_percentage"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/opacity_pale_violet_red" />
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/writing_section_task_2_writing_exercise"
+        android:layout_width="375dp"
+        android:layout_height="130dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/writing_exercise_task_2"
+        android:textAlignment="textStart"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/writing_section_table_activity_constructor"
+        app:layout_constraintVertical_bias="0.107" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
