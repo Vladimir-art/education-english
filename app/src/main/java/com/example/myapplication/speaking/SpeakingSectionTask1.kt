@@ -1,12 +1,27 @@
 package com.example.myapplication.speaking
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageButton
 import com.example.myapplication.R
 
 class SpeakingSectionTask1 : AppCompatActivity() {
+    private lateinit var backSpeakingSection: ImageButton
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_speaking_section_task1)
+
+        backSpeakingSection = findViewById(R.id.back_speaking_section_button)
+
+        backSpeakingSection.setOnClickListener {
+            openSpeakingSection()
+        }
+    }
+
+    private fun openSpeakingSection() {
+        var speakingSectionIntent = Intent(this, SpeakingSection::class.java)
+        startActivity(speakingSectionIntent)
     }
 }
