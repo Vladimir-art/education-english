@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="main_theme">#FFEFD5</color>
     <color name="medium_violet_red">#C71585</color>
+    <color name="opacity_medium_violet_red">#80C71585</color>
     <color name="violet_red">#f23fbc</color>
     <color name="pale_violet_red">#DA7092</color>
     <color name="opacity_pale_violet_red">#80DA7092</color>
