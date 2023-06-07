@@ -38,7 +38,7 @@
             android:exported="false" />
         <activity
             android:name=".reading.ReadingTask2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".reading.ReadingTask1"
             android:exported="true" />
