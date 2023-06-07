@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="second_fragment_label">Your Second Label Here</string>
     <string name="first_fragment_label">Your Label Here</string>
     <string name="app_name">My Application</string>
@@ -15,16 +15,29 @@
     <string name="Task_2">Task № 2</string>
     <string name="Task_3">Task № 3</string>
     <string name="Check_answer">Проверить ответ</string>
-    <string name="reading_task1.0">Прочитайте текст.
+    <string name="reading_exercise_task1">Прочитайте текст.
 Выберите из предложенных заголовков правильный вариант.</string>
-    <string name="reading_task1.1">A Golden Birthday is a special, unique event that occurs when a person turns the age similar to a birth date.
+    <string name="reading_exercise_view_task1">A Golden Birthday is a special, unique event that occurs when a person turns the age similar to a birth date.
 For example, a girl who celebrates her birthday on the 17th of June will have a golden birthday in the year she turns 17.
 A person who is older than 31 years will have already passed the only golden birthday and will not have it again.
 Many people miss their golden birthdays because it is not a wellknown celebration.</string>
-    <string name="reading_R.B.1">A. Crafty celebrations</string>
-    <string name="reading_R.B.2">B. Playing at a birthday</string>
-    <string name="reading_R.B.3">C. Once-in-a-lifetimes</string>
-
-
+    <string name="reading_task1_RB.A">A. Crafty celebrations</string>
+    <string name="reading_task1_RB.B">B. Playing at a birthday</string>
+    <string name="reading_task1_RB.C">C. Once-in-a-lifetimes</string>
+    <string name="reading_exercise_task2">Прочитайте текст и заполните пропуск.</string>
+    <string name="reading_exercise_view_task2">Usually, when you study abroad through your university, you get asked the big question: homestay or dorm? Loads of the people in my Japanese
+        language class um-ed and ah-ed over the choice. But not me. There was no way I was going to go to Japan and _____________ .
+    </string>
+    <string name="reading_task2_RB.A">A. That make every day here so amazing</string>
+    <string name="reading_task2_RB.B">B. And my privacy is respected totally</string>
+    <string name="reading_task2_RB.C">C. To impose curfews on their international guests</string>
+    <string name="reading_exercise_task3">Прочитайте текст. Ответьте на вопрос</string>
+    <string name="reading_exercise_view_task3" tools:ignore="StringEscaping">Reunion.
+ The last time I saw my father was in Grand Central Station.I was going from my grandmother's in the Adirondacks to a cottage on the Cape that my mother had rented, and I wrote my father that I would be in New York between trains for an hour and a half, and asked if we could have lunch together. His secretary wrote to say that he would meet me at the information booth at noon, and at twelve o'clock sharp I saw him coming through the crowd. He was a big, good-looking man, and I was terribly happy to see him again.
+</string>
+    <string name="reading_exercise_question_task3">The title of the story "Reunion" actually implies that the?</string>
+    <string name="reading_task3_RB.A">A. son found his lost father after decades of separation.</string>
+    <string name="reading_task3_RB.B">B. son made an attempt to re-establish relations with his father.</string>
+    <string name="reading_task3_RB.C">C. son would now be living together with his father.</string>
 
 </resources>

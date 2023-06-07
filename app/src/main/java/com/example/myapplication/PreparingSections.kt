@@ -1,10 +1,10 @@
 package com.example.myapplication
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.reading.ReadingSection
 import com.example.myapplication.utils.StartTextSizeAnimation
 
 class PreparingSections : AppCompatActivity() {
@@ -56,11 +56,9 @@ class PreparingSections : AppCompatActivity() {
         val mainMenuSectionIntent = Intent(this, MainActivity::class.java);
         startActivity(mainMenuSectionIntent);
     }
-
     private final fun openReadingSection() {
-        // TODO: add Reading section class
-//        val readingSectionIntent = Intent(this, MainActivity::class.java);
-//        startActivity(readingSectionIntent);
+     val readingSectionIntent = Intent(this, ReadingSection::class.java);
+        startActivity(readingSectionIntent);
     }
     private final fun openListeningSection() {
         // TODO: add Listening section class
