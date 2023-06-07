@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="writing_section_task_2_exercise">Imagine that you are doing a project how teenagers in Netland spend their free time.\nYou have found some data on the subject\n(see the table below).</string>
+    <string name="activities_title">Activities</string>
+    <string name="number_of_teenagers_title">Number of teenagers (%)</string>
+    <string name="walk_activity">Going for a walk with friends</string>
+    <string name="cinema_activity">Going to the cinema</string>
+    <string name="shopping_activity">Shopping in the mall</string>
+    <string name="eating_activity">Eating out in the cafe</string>
+    <string name="festival_activity">Visiting music festivals</string>
+    <string name="walk_activity_percentage">45</string>
+    <string name="cinema_activity_percentage">22</string>
+    <string name="shopping_activity_percentage">15</string>
+    <string name="eating_activity_percentage">13</string>
+    <string name="festival_activity_percentage">5</string>
+    <string name="writing_exercise_task_2">Write 200–250 words.\nUse the following plan:\n- make an opening statement on the subject of the project;\n- select and report 2–3 facts;\n- make 1–2 comparisons where relevant and give your comments.</string>
+</resources>
