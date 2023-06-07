@@ -1,4 +1,5 @@
 package com.example.myapplication
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
@@ -56,6 +57,7 @@ class PreparingSections : AppCompatActivity() {
         val mainMenuSectionIntent = Intent(this, MainActivity::class.java);
         startActivity(mainMenuSectionIntent);
     }
+    @SuppressLint("SuspiciousIndentation")
     private final fun openReadingSection() {
      val readingSectionIntent = Intent(this, ReadingSection::class.java);
         startActivity(readingSectionIntent);
