@@ -9,7 +9,7 @@ class StartTextSizeAnimation(private val resources: Resources) {
             val textSize = textView.paint.textSize
             val sp: Float = textSize / resources.displayMetrics.scaledDensity
 
-            val valueAnimator = ValueAnimator.ofFloat(sp + textSizeChange, 0f, sp)
+            val valueAnimator = ValueAnimator.ofFloat(sp + textSizeChange, 1f, sp)
             valueAnimator.duration = 500
             valueAnimator.addUpdateListener { animation ->
                 val animatedValue = animation.animatedValue as Float

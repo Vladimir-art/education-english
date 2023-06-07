@@ -6,7 +6,9 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.speaking.SpeakingSection
+import com.example.myapplication.reading.ReadingSection
 import com.example.myapplication.utils.StartTextSizeAnimation
+import com.example.myapplication.writing.WritingSection
 
 class PreparingSections : AppCompatActivity() {
     private lateinit var backMainMenuButton: ImageButton
@@ -15,6 +17,7 @@ class PreparingSections : AppCompatActivity() {
     private lateinit var goSpeakingSection: TextView
     private lateinit var goGrammarSection: TextView
     private lateinit var goWritingSection: TextView
+    private lateinit var startTextSizeAnimation: StartTextSizeAnimation
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,7 +29,7 @@ class PreparingSections : AppCompatActivity() {
         goSpeakingSection = findViewById(R.id.textView_speaking)
         goGrammarSection = findViewById(R.id.textView_grammar)
         goWritingSection = findViewById(R.id.textView_writing)
-        val startTextSizeAnimation = StartTextSizeAnimation(resources)
+        startTextSizeAnimation = StartTextSizeAnimation(resources)
 
         backMainMenuButton.setOnClickListener{
             openMainMenuSection();
@@ -60,7 +63,7 @@ class PreparingSections : AppCompatActivity() {
 
     private final fun openReadingSection() {
         // TODO: add Reading section class
-//        val readingSectionIntent = Intent(this, MainActivity::class.java);
+//        val readingSectionIntent = Intent(this, ReadingSection::class.java);
 //        startActivity(readingSectionIntent);
     }
     private final fun openListeningSection() {
@@ -78,8 +81,7 @@ class PreparingSections : AppCompatActivity() {
 //        startActivity(readingSectionIntent);
     }
     private final fun openWritingSection() {
-        // TODO: add Writing section class
-//        val readingSectionIntent = Intent(this, MainActivity::class.java);
-//        startActivity(readingSectionIntent);
+        val writingSectionIntent = Intent(this, WritingSection::class.java);
+        startActivity(writingSectionIntent);
     }
 }

@@ -25,6 +25,15 @@
             android:name=".speaking.SpeakingSection"
             android:exported="false" />
         <activity
+            android:name=".writing.WritingSectionTask2"
+            android:exported="true" />
+        <activity
+            android:name=".writing.WritingSectionTask1"
+            android:exported="true" />
+        <activity
+            android:name=".writing.WritingSection"
+            android:exported="true" />
+        <activity
             android:name=".reading.ReadingTask1"
             android:exported="true" />
         <activity
