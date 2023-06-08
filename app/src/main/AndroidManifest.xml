@@ -35,10 +35,10 @@
             android:exported="true" />
         <activity
             android:name=".listening.ListeningSectionTask3"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".listening.ListeningSectionTask2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".reading.ReadingTask1"
             android:exported="true" />
