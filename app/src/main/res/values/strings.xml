@@ -40,17 +40,15 @@ Yesterday I took part in a national dance festival…</string>
     <string name="listening_task1.0">Вы услышите 6 высказываний. Установите соответствие между высказываниями каждого говорящего A–F и утверждениями,
 данными в списке 1–7. Используйте каждое утверждение, обозначенное соответствующей цифрой, только один раз. В задании есть одно лишнее утверждение.
 Вы услышите запись дважды. Занесите свои ответы в таблицу.</string>
-    <string name="listening_task1.1">
-     1. I have a routine to keep communication going.
+    <string name="listening_task1.1">1. I have a routine to keep communication going.
      2. My relative was right after all.
      3. How open should I be?
      4. I\'m showing that I care my way.
      5. I\'m seen as a carer.
      6. I said yes to a different kind of experience.
      7. I\'d like to feel more independent.</string>
-    <string name="listening_task2.0"> Вы услышите диалог. Определите, какие из приведённых утверждений А–G соответствуют содержанию текста (1 – True), какие не соответствуют (2 – False) и о чём в тексте не сказано, то есть на основании текста нельзя дать ни положительного, ни отрицательного ответа (3 – Not stated). Занесите номер выбранного Вами варианта ответа в таблицу. Вы услышите запись дважды.</string>
-    <string name="listening_task2.1">
-     A. Viola\'s parents don\'t pay attention when their son is crying.
+    <string name="listening_task2.0">Вы услышите диалог. Определите, какие из приведённых утверждений А–G соответствуют содержанию текста (1 – True), какие не соответствуют (2 – False) и о чём в тексте не сказано, то есть на основании текста нельзя дать ни положительного, ни отрицательного ответа (3 – Not stated). Занесите номер выбранного Вами варианта ответа в таблицу. Вы услышите запись дважды.</string>
+    <string name="listening_task2.1">A. Viola\'s parents don\'t pay attention when their son is crying.
      B. Daniel finds it normal when men express their sadness in the form of crying.
      C. Viola remembers her childhood and the boy who cried.
      D. Attitudes to men\'s emotional expressions are different.
@@ -58,9 +56,8 @@ Yesterday I took part in a national dance festival…</string>
      F. Daniel is sure that small children should be encouraged to cry.
      G. According to Daniel, expressing emotions is worthy of respect.
      </string>
-    <string name="listening_task3.0">   Вы услышите интервью. В заданиях 3–9 запишите в поле ответа цифру 1, 2 или 3, соответствующую выбранному Вами варианту ответа. Вы услышите запись дважды.</string>
-    <string name="listening_task3.1" >
-     When is Jacky’s birthday?
+    <string name="listening_task3.0">Вы услышите интервью. В заданиях 3–9 запишите в поле ответа цифру 1, 2 или 3, соответствующую выбранному Вами варианту ответа. Вы услышите запись дважды.</string>
+    <string name="listening_task3.1" >When is Jacky’s birthday?
      1) Today
      2) Tomorrow
      3) On Wednesday

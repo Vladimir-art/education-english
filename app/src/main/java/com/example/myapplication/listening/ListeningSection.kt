@@ -7,9 +7,9 @@ import android.widget.Button
 import android.widget.ImageButton
 import com.example.myapplication.PreparingSections
 import com.example.myapplication.R
-import com.example.myapplication.speaking.SpeakingSectionTask1
-import com.example.myapplication.speaking.SpeakingSectionTask2
-import com.example.myapplication.speaking.SpeakingSectionTask3
+//import com.example.myapplication.listening.ListeningSectionTask1
+//import com.example.myapplication.listening.ListeningSectionTask2
+//import com.example.myapplication.listening.ListeningSectionTask3
 import com.example.myapplication.utils.StartTextSizeAnimation
 
 class ListeningSection : AppCompatActivity() {
@@ -51,18 +51,18 @@ class ListeningSection : AppCompatActivity() {
     }
 
     private fun openSpeakingSectionTask1() {
-        var speakingSectionTask1Intent = Intent(this, SpeakingSectionTask1::class.java)
-        startActivity(speakingSectionTask1Intent)
+        var listeningSectionTask1Intent = Intent(this, ListeningSectionTask1::class.java)
+        startActivity(listeningSectionTask1Intent)
     }
 
     private fun openSpeakingSectionTask2() {
-        var speakingSectionTask2Intent = Intent(this, SpeakingSectionTask2::class.java)
-        startActivity(speakingSectionTask2Intent)
+        var listeningSectionTask2Intent = Intent(this, ListeningSectionTask2::class.java)
+        startActivity(listeningSectionTask2Intent)
     }
 
     private fun openSpeakingSectionTask3() {
-        var speakingSectionTask3Intent = Intent(this, SpeakingSectionTask3::class.java)
-        startActivity(speakingSectionTask3Intent)
+        var listeningSectionTask3Intent = Intent(this, ListeningSectionTask3::class.java)
+        startActivity(listeningSectionTask3Intent)
     }
 }
 
