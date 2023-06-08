@@ -125,21 +125,21 @@
             android:gravity="center">
 
             <ImageButton
-                android:id="@+id/listening_section_task_1_play"
+                android:id="@+id/listening_section_task_2_play"
                 android:layout_width="42dp"
                 android:layout_height="42dp"
                 android:background="@android:color/transparent"
                 android:src="@android:drawable/ic_media_play" />
 
             <ImageButton
-                android:id="@+id/listening_section_task_1_pause"
+                android:id="@+id/listening_section_task_2_pause"
                 android:layout_width="51dp"
                 android:layout_height="42dp"
                 android:background="@android:color/transparent"
                 android:src="@android:drawable/ic_media_pause" />
 
             <ImageButton
-                android:id="@+id/listening_section_task_1_stop"
+                android:id="@+id/listening_section_task_2_stop"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_margin="12dp"
