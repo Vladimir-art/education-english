@@ -68,8 +68,8 @@ class PreparingSections : AppCompatActivity() {
     }
     private final fun openListeningSection() {
         // TODO: add Listening section class
-//        val readingSectionIntent = Intent(this, MainActivity::class.java);
-//        startActivity(readingSectionIntent);
+       val listeningSectionIntent = Intent(this, MainActivity::class.java);
+       startActivity(listeningSectionIntent);
     }
     private final fun openSpeakingSection() {
         val speakingSectionIntent = Intent(this, SpeakingSection::class.java);
