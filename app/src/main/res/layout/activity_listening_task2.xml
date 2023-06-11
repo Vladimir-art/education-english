@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/back_listening_section_button"
+        android:id="@+id/back_listening_section_button_task_2"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@android:color/transparent"
@@ -62,18 +62,19 @@
         android:id="@+id/listening_task_2_check_button"
         android:layout_width="180sp"
         android:layout_height="45sp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="30dp"
         android:backgroundTint="@color/opacity_pale_violet_red"
         android:fontFamily="@font/allerta"
         android:text="@string/Check_answer"
         android:textColor="@color/dark_purple"
-        android:textSize="15sp"
+        android:textSize="13sp"
         android:textStyle="bold"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listening_section_media_player_task_2"
         app:rippleColor="@color/main_theme"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -118,7 +119,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/listening_task_2_1_textView3">
+        app:layout_constraintTop_toBottomOf="@+id/listening_task_2_1_textView3"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -161,7 +163,7 @@
         android:layout_marginTop="0dp"
         android:layout_marginBottom="0dp"
         android:fontFamily="@font/allerta"
-        android:text="@string/listening_task_1_answers"
+        android:text="@string/listening_task_2_answers"
         android:textSize="16sp"
         android:textStyle="bold|italic"
         android:visibility="invisible"

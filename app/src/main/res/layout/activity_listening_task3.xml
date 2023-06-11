@@ -62,7 +62,7 @@
         android:id="@+id/listening_task_3_check_button"
         android:layout_width="180sp"
         android:layout_height="45sp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="30dp"
         android:backgroundTint="@color/opacity_pale_violet_red"
         android:fontFamily="@font/allerta"
         android:text="@string/Check_answer"
@@ -74,6 +74,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listening_section_media_player_task_3"
         app:rippleColor="@color/main_theme"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -171,6 +172,23 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/listening_section_answers_textView_task_2"
+        android:layout_width="375dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/listening_task_2_answers"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listening_task_3_check_button"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
