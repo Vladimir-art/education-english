@@ -21,7 +21,7 @@ class ListeningSectionTask3 : AppCompatActivity() {
     private lateinit var btnPause: ImageButton
     private lateinit var btnStop: ImageButton
     private lateinit var btnShowAnswers: Button
-    private lateinit var textTask2Answers: TextView
+    private lateinit var textTask3Answers: TextView
     private lateinit var mediaPlayerCardView: CardView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
