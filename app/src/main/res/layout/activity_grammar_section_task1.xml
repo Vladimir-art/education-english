@@ -25,7 +25,7 @@
         android:layout_height="60dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toTopOf="@+id/divider"
-        app:layout_constraintEnd_toStartOf="@+id/speaking_title"
+        app:layout_constraintEnd_toStartOf="@+id/grammar_title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="?attr/actionModeCloseDrawable"
@@ -91,7 +91,7 @@
             android:orientation="vertical">
 
                 <TableLayout
-                android:id="@+id/writing_section_table_activity_constructor"
+                android:id="@+id/grammar_section_table_activity_constructor"
                 android:layout_width="375dp"
                 android:layout_height="match_parent"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -135,7 +135,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.1"
+                        android:layout_weight="0.11"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="5dp"
@@ -186,7 +186,7 @@
                         android:id="@+id/grammar_section_task_1_A_imageButton"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.1"
+                        android:layout_weight="0.11"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="15dp"
                         android:background="@android:color/transparent"
@@ -234,7 +234,7 @@
                         android:id="@+id/grammar_section_task_1_B_imageButton"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.1"
+                        android:layout_weight="0.11"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="15dp"
                         android:background="@android:color/transparent"
@@ -282,7 +282,7 @@
                         android:id="@+id/grammar_section_task_1_C_imageButton"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.1"
+                        android:layout_weight="0.11"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="15dp"
                         android:background="@android:color/transparent"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="grammar_section_task_2_exercise_A">A young man was walking through a supermarket.\nSuddenly he noticed that he __________(FOLLOW) by an old lady.</string>
+    <string name="grammar_section_task_2_exercise_A_answer">was being followed</string>
+    <string name="grammar_section_task_2_exercise_B">When he went to the checkout line, she got in front of him.\n"Pardon me," she said,\n"I'm sorry if I made you feel uncomfortable. It's just that you look exactly like my son whom I __________(NOT SEE) for about 10 years."</string>
+    <string name="grammar_section_task_2_exercise_B_answer">have not seen</string>
+    <string name="grammar_section_task_2_exercise_C_part_1">"I'm very sorry," replied the young man,\n"Is there anything I can do for you?"\n"Yes," she said.\n"As I'm leaving, can you say 'Goodbye mother'? It would make me feel much __________(GOOD)".\n"Sure," answered the young man. As the old woman was leaving, he called out, "Goodbye mother!"</string>
+    <string name="grammar_section_task_2_exercise_C_answer">better</string>
+</resources>
