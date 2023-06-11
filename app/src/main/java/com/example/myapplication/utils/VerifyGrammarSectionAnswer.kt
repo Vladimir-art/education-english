@@ -12,18 +12,20 @@ class VerifyGrammarSectionAnswer(private val context: Context) {
     private var rightColorText: Int = 0
     private var wrongColorText: Int = 0
     private var rightColorBackground: Int = 0
+    private var promptTextColor: Int = 0
 
     init {
         rightColorText = ContextCompat.getColor(context, R.color.medium_sea_green)
         wrongColorText = ContextCompat.getColor(context, R.color.medium_violet_red)
         rightColorBackground = ContextCompat.getColor(context, R.color.opacity_medium_sea_green)
+        promptTextColor = ContextCompat.getColor(context, R.color.dark_purple)
     }
 
-    fun <T : EditText, M : TableRow> verify(
+    fun verify(
         actionId: Int,
-        editTextElement: T,
+        editTextElement: EditText,
         rightAnswer: String,
-        taskTableRow: M
+        taskTableRow: TableRow
     ): Boolean {
         if (actionId == EditorInfo.IME_ACTION_DONE || actionId == EditorInfo.IME_NULL) {
             val enteredText = editTextElement.text.toString().lowercase()
@@ -41,5 +43,8 @@ class VerifyGrammarSectionAnswer(private val context: Context) {
         }
     }
 
-
+    fun prompt(elem: EditText, rightAnswer: String) {
+        elem.setText(rightAnswer)
+        elem.setTextColor(promptTextColor)
+    }
 }
