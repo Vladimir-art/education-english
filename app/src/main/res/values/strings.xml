@@ -40,57 +40,13 @@ Yesterday I took part in a national dance festival…</string>
     <string name="listening_task1.0">Вы услышите 6 высказываний. Установите соответствие между высказываниями каждого говорящего A–F и утверждениями,
 данными в списке 1–7. Используйте каждое утверждение, обозначенное соответствующей цифрой, только один раз. В задании есть одно лишнее утверждение.
 Вы услышите запись дважды. Занесите свои ответы в таблицу.</string>
-    <string name="listening_task1.1">1. I have a routine to keep communication going.
-     2. My relative was right after all.
-     3. How open should I be?
-     4. I\'m showing that I care my way.
-     5. I\'m seen as a carer.
-     6. I said yes to a different kind of experience.
-     7. I\'d like to feel more independent.</string>
+    <string name="listening_task_1_answers">Right answers:412356</string>
+    <string name="listening_task1.1">1. I have a routine to keep communication going.\n2. My relative was right after all.\n3. How open should I be?\n4. I\'m showing that I care my way.\n5. I\'m seen as a carer.\n6. I said yes to a different kind of experience.\n7. I\'d like to feel more independent.</string>
     <string name="listening_task2.0">Вы услышите диалог. Определите, какие из приведённых утверждений А–G соответствуют содержанию текста (1 – True), какие не соответствуют (2 – False) и о чём в тексте не сказано, то есть на основании текста нельзя дать ни положительного, ни отрицательного ответа (3 – Not stated). Занесите номер выбранного Вами варианта ответа в таблицу. Вы услышите запись дважды.</string>
-    <string name="listening_task2.1">A. Viola\'s parents don\'t pay attention when their son is crying.
-     B. Daniel finds it normal when men express their sadness in the form of crying.
-     C. Viola remembers her childhood and the boy who cried.
-     D. Attitudes to men\'s emotional expressions are different.
-     E. Viola dislikes the traditions of Chile.
-     F. Daniel is sure that small children should be encouraged to cry.
-     G. According to Daniel, expressing emotions is worthy of respect.
-     </string>
+    <string name="listening_task2.1">A. Viola\'s parents don\'t pay attention when their son is crying.\nB. Daniel finds it normal when men express their sadness in the form of crying.\nC. Viola remembers her childhood and the boy who cried.\nD. Attitudes to men\'s emotional expressions are different.\nE. Viola dislikes the traditions of Chile.\nF. Daniel is sure that small children should be encouraged to cry.\nG. According to Daniel, expressing emotions is worthy of respect.</string>
     <string name="listening_task3.0">Вы услышите интервью. В заданиях 3–9 запишите в поле ответа цифру 1, 2 или 3, соответствующую выбранному Вами варианту ответа. Вы услышите запись дважды.</string>
-    <string name="listening_task3.1" >When is Jacky’s birthday?
-     1) Today
-     2) Tomorrow
-     3) On Wednesday
-
-     Which is TRUE about Jacky and her husband?
-     1) They’ve been married for 75 years.
-     2) They both love coconut cakes.
-     3) They are the same age.
-
-     When she was a teenager, Jacky helped her mom
-     1) sell subscriptions to the newspaper.
-     2) write news about World War II.
-     3) do what she was asked to.
-
-     At the end of the war Jacky’s husband found himself in
-     1) Sussex.
-     2) Tennessee.
-     3) the Far East.
-
-     How many years did Jacky write for the newspaper?
-     1) 25
-     2) 33
-     3) 84
-
-     Jacky’s fans liked reading her column because it
-     1) covered different topics.
-     2) was written in an authoritative tone.
-     3) gave an honest point view.
-
-     During the meetings of the board of directors, Jacky used to
-     1) listen to others rather than speak.
-     2) ask many questions.
-     3) make everyone do what she wants.
+    <string name="listening_task3.1" >When is Jacky’s birthday?\n1) Today\n2) Tomorrow\n3) On Wednesday\n\nWhich is TRUE about Jacky and her husband?\n1) They’ve been married for 75 years.\n2) They both love coconut cakes.\n3) They are the same age.\n\nWhen she was a teenager, Jacky helped her mom\n1) sell subscriptions to the newspaper.\n2) write news about World War II.\n3) do what she was asked to.\n\nAt the end of the war Jacky’s husband found himself in\n1) Sussex.\n2) Tennessee.\n3) the Far East.\n\nHow many years did Jacky write for the newspaper?\n1) 25\n2) 33\n3) 84\n\nJacky’s fans liked reading her column because it\n1) covered different topics.\n2) was written in an authoritative tone.\n3) gave an honest point view.\n\nDuring the meetings of the board of directors, Jacky used to\n1) listen to others rather than speak.\n2) ask many questions.\n3) make everyone do what she wants.
+    <string name="listening_task_1_answers">Right answers:412356</string>
 
      </string>
 </resources>
