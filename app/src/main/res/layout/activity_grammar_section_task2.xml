@@ -152,6 +152,7 @@
                     android:background="@color/pale_violet_red" />
 
                 <TableRow
+                    android:id="@+id/grammar_section_task_2_A_row"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -200,6 +201,7 @@
                     android:background="@color/opacity_pale_violet_red" />
 
                 <TableRow
+                    android:id="@+id/grammar_section_task_2_B_row"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -248,6 +250,7 @@
                     android:background="@color/opacity_pale_violet_red" />
 
                 <TableRow
+                    android:id="@+id/grammar_section_task_2_C_row"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 

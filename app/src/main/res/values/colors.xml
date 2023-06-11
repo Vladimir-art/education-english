@@ -11,4 +11,6 @@
     <color name="dark_purple">#352f3d</color>
     <color name="dark_blue">#23b8c2</color>
     <color name="opacity_lavender">#80E6E6FA</color>
+    <color name="medium_sea_green">#3CB371</color>
+    <color name="opacity_medium_sea_green">#403CB371</color>
 </resources>
