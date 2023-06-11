@@ -1,19 +1,18 @@
 package com.example.myapplication.listening
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.animation.AnimatorInflater
 import android.content.Intent
 import android.content.res.ColorStateList
 import android.media.MediaPlayer
+import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import com.example.myapplication.R
-//import com.example.myapplication.listening.ListeningSectionTask1
 
 class ListeningSectionTask1 : AppCompatActivity() {
 
