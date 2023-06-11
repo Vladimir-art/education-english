@@ -174,13 +174,13 @@
     </androidx.cardview.widget.CardView>
 
     <TextView
-        android:id="@+id/listening_section_answers_textView_task_2"
+        android:id="@+id/listening_section_answers_textView_task_3"
         android:layout_width="375dp"
         android:layout_height="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginBottom="0dp"
         android:fontFamily="@font/allerta"
-        android:text="@string/listening_task_2_answers"
+        android:text="@string/listening_task_3_answers"
         android:textSize="16sp"
         android:textStyle="bold|italic"
         android:visibility="invisible"
