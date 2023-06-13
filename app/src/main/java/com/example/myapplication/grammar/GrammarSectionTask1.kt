@@ -1,18 +1,13 @@
 package com.example.myapplication.grammar
 
 import android.content.Intent
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.TableRow
-import androidx.core.content.ContextCompat
 import com.example.myapplication.R
 import com.example.myapplication.utils.VerifyGrammarSectionAnswer
-import kotlin.properties.Delegates
 
 class GrammarSectionTask1 : AppCompatActivity() {
     private lateinit var backGrammarSection: ImageButton
