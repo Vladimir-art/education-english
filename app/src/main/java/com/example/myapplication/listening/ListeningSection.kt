@@ -7,9 +7,6 @@ import android.widget.Button
 import android.widget.ImageButton
 import com.example.myapplication.PreparingSections
 import com.example.myapplication.R
-//import com.example.myapplication.listening.ListeningSectionTask1
-//import com.example.myapplication.listening.ListeningSectionTask2
-//import com.example.myapplication.listening.ListeningSectionTask3
 import com.example.myapplication.utils.StartTextSizeAnimation
 
 class ListeningSection : AppCompatActivity() {

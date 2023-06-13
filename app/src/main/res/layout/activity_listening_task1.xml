@@ -81,14 +81,14 @@
 
     <TextView
         android:id="@+id/listening_task_1_0_textView2"
-        android:layout_width="375dp"
-        android:layout_height="240dp"
+        android:layout_width="380dp"
+        android:layout_height="180dp"
         android:layout_marginTop="15dp"
         android:fontFamily="@font/allerta"
         android:text="@string/listening_task1.0"
         android:textAlignment="center"
         android:textColor="@color/dark_purple"
-        android:textSize="18sp"
+        android:textSize="16dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
