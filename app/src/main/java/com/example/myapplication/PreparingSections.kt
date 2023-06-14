@@ -9,6 +9,7 @@ import com.example.myapplication.speaking.SpeakingSection
 import com.example.myapplication.reading.ReadingSection
 import com.example.myapplication.utils.StartTextSizeAnimation
 import com.example.myapplication.writing.WritingSection
+import com.example.myapplication.listening.ListeningSection
 
 class PreparingSections : AppCompatActivity() {
     private lateinit var backMainMenuButton: ImageButton
@@ -63,13 +64,12 @@ class PreparingSections : AppCompatActivity() {
 
     private final fun openReadingSection() {
         // TODO: add Reading section class
-//        val readingSectionIntent = Intent(this, ReadingSection::class.java);
-//        startActivity(readingSectionIntent);
+       val readingSectionIntent = Intent(this, ReadingSection::class.java);
+       startActivity(readingSectionIntent);
     }
     private final fun openListeningSection() {
-        // TODO: add Listening section class
-//        val readingSectionIntent = Intent(this, MainActivity::class.java);
-//        startActivity(readingSectionIntent);
+       val listeningSectionIntent = Intent(this, ListeningSection::class.java);
+       startActivity(listeningSectionIntent);
     }
     private final fun openSpeakingSection() {
         val speakingSectionIntent = Intent(this, SpeakingSection::class.java);
