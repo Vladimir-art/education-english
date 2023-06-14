@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.grammar.GrammarSection
 import com.example.myapplication.speaking.SpeakingSection
 import com.example.myapplication.reading.ReadingSection
 import com.example.myapplication.utils.StartTextSizeAnimation
@@ -76,9 +77,8 @@ class PreparingSections : AppCompatActivity() {
         startActivity(speakingSectionIntent);
     }
     private final fun openGrammarSection() {
-        // TODO: add Grammar section class
-//        val readingSectionIntent = Intent(this, MainActivity::class.java);
-//        startActivity(readingSectionIntent);
+        val grammarSectionIntent = Intent(this, GrammarSection::class.java);
+        startActivity(grammarSectionIntent);
     }
     private final fun openWritingSection() {
         val writingSectionIntent = Intent(this, WritingSection::class.java);
