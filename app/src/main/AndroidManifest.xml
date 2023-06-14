@@ -43,10 +43,22 @@
             android:name=".writing.WritingSection"
             android:exported="true" />
         <activity
+            android:name=".listening.ListeningSectionTask3"
+            android:exported="true" />
+        <activity
+            android:name=".listening.ListeningSectionTask2"
+            android:exported="true" />
+        <activity
             android:name=".reading.ReadingTask1"
             android:exported="true" />
         <activity
             android:name=".reading.ReadingSection"
+            android:exported="true" />
+        <activity
+            android:name=".listening.ListeningSectionTask1"
+            android:exported="true" />
+        <activity
+            android:name=".listening.ListeningSection"
             android:exported="true" />
         <activity
             android:name=".PreparingSections"
@@ -56,7 +68,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
