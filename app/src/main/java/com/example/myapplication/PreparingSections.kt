@@ -57,16 +57,13 @@ class PreparingSections : AppCompatActivity() {
             openWritingSection();
         }
     }
-
     private final fun openMainMenuSection() {
         val mainMenuSectionIntent = Intent(this, MainActivity::class.java);
         startActivity(mainMenuSectionIntent);
     }
-
     private final fun openReadingSection() {
-        // TODO: add Reading section class
-       val readingSectionIntent = Intent(this, ReadingSection::class.java);
-       startActivity(readingSectionIntent);
+     val readingSectionIntent = Intent(this, ReadingSection::class.java);
+        startActivity(readingSectionIntent);
     }
     private final fun openListeningSection() {
        val listeningSectionIntent = Intent(this, ListeningSection::class.java);

@@ -23,16 +23,16 @@
             android:exported="false" />
         <activity
             android:name=".speaking.SpeakingSectionTask3"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".speaking.SpeakingSectionTask2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".speaking.SpeakingSectionTask1"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".speaking.SpeakingSection"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".writing.WritingSectionTask2"
             android:exported="true" />
@@ -41,6 +41,12 @@
             android:exported="true" />
         <activity
             android:name=".writing.WritingSection"
+            android:exported="true" />
+        <activity
+            android:name=".reading.ReadingTask3"
+            android:exported="true" />
+        <activity
+            android:name=".reading.ReadingTask2"
             android:exported="true" />
         <activity
             android:name=".listening.ListeningSectionTask3"

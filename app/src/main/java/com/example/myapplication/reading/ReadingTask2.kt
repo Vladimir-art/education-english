@@ -1,28 +1,27 @@
 package com.example.myapplication.reading
 
+import android.animation.AnimatorInflater
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.content.res.ColorStateList
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.ImageButton
-import com.example.myapplication.PreparingSections
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.example.myapplication.R
 import com.example.myapplication.utils.StartTextSizeAnimation
-import android.animation.AnimatorInflater
-import android.content.res.ColorStateList
-import android.widget.Button
-import android.widget.TextView
-import androidx.cardview.widget.CardView
-import androidx.core.content.ContextCompat
-class ReadingTask1 : AppCompatActivity() {
+
+class ReadingTask2 : AppCompatActivity() {
     private lateinit var btnShowQuestions: Button
-    private lateinit var textTask1Questions: TextView
+    private lateinit var textTask2Questions: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_reading_task1)
+        setContentView(R.layout.activity_reading_task2)
         val backButton = findViewById<ImageButton>(R.id.back_reading_section_button)
-        btnShowQuestions = findViewById(R.id.reading_task_1_check_answer)
-        textTask1Questions = findViewById(R.id.reading_section_answers_textView1)
+        btnShowQuestions = findViewById(R.id.reading_task_2_check_answer)
+        textTask2Questions = findViewById(R.id.reading_section_answers_textView2)
         var isButtonClicked = false
         backButton.setOnClickListener {
             openReadingSection()
@@ -30,10 +29,10 @@ class ReadingTask1 : AppCompatActivity() {
         btnShowQuestions.setOnClickListener {
             if (isButtonClicked) {
                 setInactiveColorElement(btnShowQuestions)
-                textTask1Questions.visibility = View.GONE
+                textTask2Questions.visibility = View.GONE
             } else {
                 setActiveColorElement(btnShowQuestions)
-                textTask1Questions.visibility = View.VISIBLE
+                textTask2Questions.visibility = View.VISIBLE
             }
             isButtonClicked = !isButtonClicked
         }
@@ -48,5 +47,4 @@ class ReadingTask1 : AppCompatActivity() {
         val readingSectionIntent = Intent(this, ReadingSection::class.java)
         startActivity(readingSectionIntent)
     }
-
 }
