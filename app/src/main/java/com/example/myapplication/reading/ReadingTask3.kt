@@ -17,7 +17,6 @@ import com.example.myapplication.utils.StartTextSizeAnimation
 class ReadingTask3 : AppCompatActivity() {
     private lateinit var btnShowQuestions: Button
     private lateinit var textTask3Questions: TextView
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_reading_task3)

@@ -90,7 +90,8 @@
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/exercise_task1" />
+        app:layout_constraintTop_toBottomOf="@+id/exercise_task1"
+        tools:ignore="TextSizeCheck" />
 
     <RadioGroup
         android:id="@+id/reading_task_1_radioButton_group"
@@ -170,6 +171,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="@color/main_theme"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck,TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
