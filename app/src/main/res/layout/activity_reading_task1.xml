@@ -40,7 +40,7 @@
         android:fontFamily="@font/allerta"
         android:text="@string/reading_section"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +53,7 @@
         android:fontFamily="@font/allerta"
         android:text="@string/Task_1"
         android:textAlignment="center"
-        android:textSize="16sp"
+        android:textSize="16dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,7 +69,7 @@
         android:text="@string/reading_exercise_task1"
         android:textAlignment="center"
         android:textColor="@color/dark_purple"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,7 +87,7 @@
         android:text="@string/reading_exercise_view_task1"
         android:textAlignment="center"
         android:textColor="@color/dark_purple"
-        android:textSize="16sp"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/exercise_task1" />
@@ -109,7 +109,7 @@
             android:clickable="true"
             android:fontFamily="@font/allerta"
             android:text="@string/reading_task1_RB.A"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:textStyle="bold"
             android:theme="@style/MyRadioButtonRed"
             tools:ignore="TouchTargetSizeCheck" />
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/allerta"
             android:text="@string/reading_task1_RB.B"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:textStyle="bold"
             android:theme="@style/MyRadioButtonRed"
             tools:ignore="TouchTargetSizeCheck" />
@@ -131,7 +131,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/allerta"
             android:text="@string/reading_task1_RB.C"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:textStyle="bold"
             android:theme="@style/MyRadioButtonGreen"
             tools:ignore="TouchTargetSizeCheck" />
@@ -145,7 +145,7 @@
         android:fontFamily="@font/allerta"
         android:text="@string/reading_answers_task1"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:textStyle="bold|italic"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -154,15 +154,15 @@
 
     <Button
         android:id="@+id/reading_task_1_check_answer"
-        android:layout_width="180sp"
-        android:layout_height="45sp"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="@color/opacity_pale_violet_red"
         android:fontFamily="@font/allerta"
         android:text="@string/Check_answer"
         android:textColor="@color/dark_purple"
-        android:textSize="15sp"
+        android:textSize="15dp"
         android:textStyle="bold"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -172,5 +172,5 @@
         app:layout_constraintTop_toBottomOf="@+id/reading_task_1_radioButton_group"
         app:layout_constraintVertical_bias="0.836"
         app:rippleColor="@color/main_theme"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck,TextSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

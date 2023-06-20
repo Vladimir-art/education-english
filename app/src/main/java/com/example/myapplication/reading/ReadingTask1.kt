@@ -23,8 +23,6 @@ class ReadingTask1 : AppCompatActivity() {
         val backButton = findViewById<ImageButton>(R.id.back_reading_section_button)
         btnShowQuestions = findViewById(R.id.reading_task_1_check_answer)
         textTask1Questions = findViewById(R.id.reading_section_answers_textView1)
-        AnimatorInflater.loadAnimator(this, R.animator.button_scale)
-        AnimatorInflater.loadAnimator(this, R.animator.button_alpha)
         var isButtonClicked = false
         backButton.setOnClickListener {
             openReadingSection()
