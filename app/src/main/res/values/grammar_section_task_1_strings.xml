@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="grammar_section_task_1_title">Прочитайте приведённые ниже тексты.\nПреобразуйте, если необходимо, слова, напечатанные заглавными буквами в конце строк, так, чтобы они грамматически соответствовали содержанию текстов.</string>
+    <string name="grammar_section_column_question">Sentence</string>
+    <string name="grammar_section_column_answer">Answer</string>
+    <string name="grammar_section_exercise_A">A six-year-old boy walked up to his father one day and said,\n - Daddy, I\'d like to get __________(MARRY)</string>
+    <string name="grammar_section_exercise_A_answer">married</string>
+    <string name="grammar_section_exercise_B">His father replied hesitantly,\n"Sure, son, do you have anyone in mind? Maybe it\'s one of our neighbours\' __________(CHILD)</string>
+    <string name="grammar_section_exercise_B_answer">children</string>
+    <string name="grammar_section_exercise_C_part_1">"No," answered the boy.\n"I want to marry Grandma."\n"Now, wait a minute," said his father.\n"You __________(NOT THINK) I\'d let you marry my mother, do you?"\n"Why not?" the boy asked.\n"You married mine."</string>
+    <string name="grammar_section_exercise_C_answer">do not think</string>
+</resources>

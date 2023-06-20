@@ -14,4 +14,6 @@
     <color name="main_theme50">#50fff7fd</color>
     <color name="red">#BC1212</color>
     <color name="green">#34ebae</color>
+    <color name="medium_sea_green">#3CB371</color>
+    <color name="opacity_medium_sea_green">#403CB371</color>
 </resources>

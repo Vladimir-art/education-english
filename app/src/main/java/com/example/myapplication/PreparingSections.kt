@@ -5,10 +5,12 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.grammar.GrammarSection
 import com.example.myapplication.speaking.SpeakingSection
 import com.example.myapplication.reading.ReadingSection
 import com.example.myapplication.utils.StartTextSizeAnimation
 import com.example.myapplication.writing.WritingSection
+import com.example.myapplication.listening.ListeningSection
 
 class PreparingSections : AppCompatActivity() {
     private lateinit var backMainMenuButton: ImageButton
@@ -64,16 +66,16 @@ class PreparingSections : AppCompatActivity() {
         startActivity(readingSectionIntent);
     }
     private final fun openListeningSection() {
-     // val listeningSectionIntent = Intent(this, listeningSection::class.java);
-     //   startActivity(listeningSectionIntent);
+       val listeningSectionIntent = Intent(this, ListeningSection::class.java);
+       startActivity(listeningSectionIntent);
     }
     private final fun openSpeakingSection() {
         val speakingSectionIntent = Intent(this, SpeakingSection::class.java);
         startActivity(speakingSectionIntent);
     }
     private final fun openGrammarSection() {
-//        val readingSectionIntent = Intent(this, MainActivity::class.java);
-//        startActivity(readingSectionIntent);
+        val grammarSectionIntent = Intent(this, GrammarSection::class.java);
+        startActivity(grammarSectionIntent);
     }
     private final fun openWritingSection() {
         val writingSectionIntent = Intent(this, WritingSection::class.java);
