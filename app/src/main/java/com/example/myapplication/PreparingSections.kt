@@ -55,27 +55,23 @@ class PreparingSections : AppCompatActivity() {
             openWritingSection();
         }
     }
-
     private final fun openMainMenuSection() {
         val mainMenuSectionIntent = Intent(this, MainActivity::class.java);
         startActivity(mainMenuSectionIntent);
     }
-
     private final fun openReadingSection() {
      val readingSectionIntent = Intent(this, ReadingSection::class.java);
         startActivity(readingSectionIntent);
     }
     private final fun openListeningSection() {
-        // TODO: add Listening section class
-//        val readingSectionIntent = Intent(this, MainActivity::class.java);
-//        startActivity(readingSectionIntent);
+     // val listeningSectionIntent = Intent(this, listeningSection::class.java);
+     //   startActivity(listeningSectionIntent);
     }
     private final fun openSpeakingSection() {
         val speakingSectionIntent = Intent(this, SpeakingSection::class.java);
         startActivity(speakingSectionIntent);
     }
     private final fun openGrammarSection() {
-        // TODO: add Grammar section class
 //        val readingSectionIntent = Intent(this, MainActivity::class.java);
 //        startActivity(readingSectionIntent);
     }

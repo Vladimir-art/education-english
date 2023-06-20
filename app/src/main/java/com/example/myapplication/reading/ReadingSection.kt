@@ -13,22 +13,19 @@ class ReadingSection : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_section_reading)
         val backButton = findViewById<ImageButton>(R.id.back_sections_menu_button)
-        /*val task1Button = findViewById<Button>(R.id.reading_section_task_1_button)
+        val task1Button = findViewById<Button>(R.id.reading_section_task_1_button)
         val task2Button = findViewById<Button>(R.id.reading_section_task_2_button)
         val task3Button = findViewById<Button>(R.id.reading_section_task_3_button)
         val startTextSizeAnimation = StartTextSizeAnimation(resources)
         task1Button.setOnClickListener {
-            startTextSizeAnimation.start(task1Button)
-            openReadingTask1()
+                        openReadingTask1()
         }
         task2Button.setOnClickListener {
-            startTextSizeAnimation.start(task2Button)
-            openReadingTask2()
+                        openReadingTask2()
         }
         task3Button.setOnClickListener {
-            startTextSizeAnimation.start(task2Button)
             openReadingTask3()
-        }*/
+        }
         backButton.setOnClickListener {
             openPreparingSections()
         }

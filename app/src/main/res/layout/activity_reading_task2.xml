@@ -74,8 +74,23 @@ app:layout_constraintStart_toStartOf="parent"
 app:layout_constraintTop_toTopOf="@+id/divider" />
 
     <TextView
+        android:id="@+id/reading_section_answers_textView2"
+        android:layout_width="232dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="@font/allerta"
+        android:textAlignment="center"
+        android:text="@string/reading_answers_task2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
         android:id="@+id/exercise_view_task2"
-        android:layout_width="wrap_content"
+        android:layout_width="375dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="40dp"
@@ -92,10 +107,10 @@ app:layout_constraintTop_toTopOf="@+id/divider" />
 
     <RadioGroup
         android:id="@+id/reading_task_2_radioButton_group"
-        android:layout_width="330dp"
-        android:layout_height="147dp"
+        android:layout_width="371dp"
+        android:layout_height="122dp"
         android:layout_marginTop="-10dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,9 +121,11 @@ app:layout_constraintTop_toTopOf="@+id/divider" />
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/allerta"
+            android:minHeight="48dp"
             android:text="@string/reading_task2_RB.A"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:theme="@style/MyRadioButtonGreen" />
 
         <RadioButton
             android:id="@+id/reading_task2_radioButton_B"
@@ -117,7 +134,9 @@ app:layout_constraintTop_toTopOf="@+id/divider" />
             android:fontFamily="@font/allerta"
             android:text="@string/reading_task2_RB.B"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:theme="@style/MyRadioButtonRed"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <RadioButton
             android:id="@+id/reading_task2_radioButton_C"
@@ -126,24 +145,26 @@ app:layout_constraintTop_toTopOf="@+id/divider" />
             android:fontFamily="@font/allerta"
             android:text="@string/reading_task2_RB.C"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:theme="@style/MyRadioButtonRed"
+            tools:ignore="TouchTargetSizeCheck" />
     </RadioGroup>
 
-<Button
-android:id="@+id/reading_task_2_check_answer"
-android:layout_width="180sp"
-android:layout_height="45sp"
-android:layout_marginBottom="8dp"
-android:backgroundTint="@color/pale_violet_red"
-android:fontFamily="@font/allerta"
-android:text="@string/Check_answer"
-android:textColor="@color/dark_purple"
-android:textSize="15sp"
-android:textStyle="bold"
-app:cornerRadius="10dp"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-app:rippleColor="@color/main_theme"
-tools:ignore="TouchTargetSizeCheck" />
+    <Button
+        android:id="@+id/reading_task_2_check_answer"
+        android:layout_width="180sp"
+        android:layout_height="45sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/opacity_pale_violet_red"
+        android:fontFamily="@font/allerta"
+        android:text="@string/Check_answer"
+        android:textColor="@color/dark_purple"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/main_theme"
+        tools:ignore="TouchTargetSizeCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
